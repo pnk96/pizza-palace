@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css" />    
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+/>    <link rel="stylesheet" href="css/style.css" />    
     <title>Document</title>
 </head>
 <body>
@@ -81,12 +83,13 @@
                                 <label for="topping-cucumber" class="form-check-label">Cheese (ksh.160)</label>
                             </div>
                         </div>
+                        <br>
                         <div class="form-group">
-                            <label class="form-label" for="order-qty">Number of Orders</label>
+                            <label class="form-label" for="order-qty"><b>Number of Orders</b></label>
                             <input type="number" class="input num-orders form-control" name="order-qty" value="1" id="order-qty" min="1"/>
-                            
+                            <br>
                             <div class="col-6 md-2">
-                                <label for="price">Total(Ksh): </label>
+                                <label for="price"><b>Total(Ksh):</b></label>
                                 <input type="number" id="price" readonly/>
                             </div>
                         </div>
@@ -97,6 +100,7 @@
                             <input class="address" type="text" name="postal-address" id="delivery-address" placeholder="Physical Address"/>
                         </div>
                     </form>
+                    <br>
                     <button id="add-to-cart" class="btn btn-primary">Add to cart</button>
                 </div>
 

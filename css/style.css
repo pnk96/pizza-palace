@@ -20,3 +20,32 @@ form h2 {
     background-size: cover;
     height: 100vh;
 }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.hero-content {
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+}
+
+.hero-content h3 {
+    background-color: rgba(153, 148, 148, 0.747);
+    text-align: center;
+}
+
+.hero-content h1 {
+    background-color: rgb(129, 126, 126);
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 90px;
+    font-weight: 900;
+    padding: 1rem;
+}
