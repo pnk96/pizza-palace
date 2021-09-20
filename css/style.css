@@ -68,3 +68,13 @@ form {
     width: 200px;
     height: inherit;
 }
+
+.delivery input {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+input.num-orders {
+    width: 5rem;
+    height: 2rem;
+}
