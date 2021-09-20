@@ -13,3 +13,7 @@ form h2 {
     color: rgb(238, 10, 10);
     text-align: center;
 }
+
+.landing {
+    background-image: url("../images/pizza-palace.jpg");
+    }
