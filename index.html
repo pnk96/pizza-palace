@@ -29,6 +29,7 @@
                 <div class="col-lg-5 order">
                     <form id="form-order" class="form">
                         <h2>Place your Order Here</h2>
+                        <br>
                         <div class="pizza-size form-group">
                             <h6>Choose your Size</h6>
                              <div class="form-check">
@@ -44,7 +45,6 @@
                                 <label for="check3" class="form-check-label" >Small (ksh.450)</label>
                             </div>
                         </div>
-                        <br>
                         <div class="pizza-crust form-group">
                             <h6>Select your Crust:</h6>
                             <select class="input crust form-control" name="crust" id="crust">
@@ -53,6 +53,33 @@
                                 <option value="gluten-free">Gluten-free (ksh.200)</option>
                                 <option value="crispy">Crispy (ksh.150)</option>       
                             </select>
+                        </div>
+                        <div class="pizza-toppings form-group">
+                            <h6>Choose Tooping(s):</h6>
+                            <div class="form-check">
+                                <input id="topping-mushroom" class="input topping" type="checkbox" name="topping" value="mushroom"/>
+                                <label for="topping-mushroom" class="form-check-label">Mushroom (ksh.250)</label>
+                            </div>
+                            <br>
+                            <div class="form-check">
+                                <input id="topping-sausage" class="input topping" type="checkbox" name="topping" value="sausage"/>
+                                <label for="topping-sausage" class="form-check-label">Sausage (ksh.200)</label>
+                            </div>
+                            <br>
+                            <div class="form-check">
+                                <input id="topping-tomato" class="input topping" type="checkbox" name="topping" value="tomato"/>
+                                <label for="topping-tomato" class="form-check-label">Tomatoes & Onions (ksh.100)</label>
+                            </div>
+                            <br>
+                            <div class="form-check">
+                                <input id="topping-chicken" class="input topping" type="checkbox" name="topping" value="vegetables"/>
+                                <label for="topping-chicken" class="form-check-label">Vegetables (ksh.80)</label>
+                            </div>
+                            <br>
+                            <div class="form-check">
+                                <input id="topping-cucumber" class="input topping" type="checkbox" name="topping" value="cheese"/>
+                                <label for="topping-cucumber" class="form-check-label">Cheese (ksh.160)</label>
+                            </div>
                         </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
