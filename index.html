@@ -100,6 +100,45 @@
                     <button id="add-to-cart" class="btn btn-primary">Add to cart</button>
                 </div>
 
+                <div class="col-7 cart">
+                    <br>
+                    <br>
+                     <h2 style="text-align: center">RECEIPT</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Order Description</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Cost</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                    </table>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>
+                                Order cost:
+                                <input class="form-control" type="number" id="orders-cost" readonly/>
+                            </label>
+                            <label>
+                                Delivery Fee:
+                                <input class="form-control" type="number" id="delivery-cost" readonly/>
+                            </label>
+                            <label>
+                                Total cost:
+                                <input class="form-control" type="number" id="total-cost" readonly/>
+                            </label>
+                        </div>                            
+                    </div>
+                    <br>
+                        <div>
+                              <button id="submit-order" class="btn btn-success">Submit</button>
+                        </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
