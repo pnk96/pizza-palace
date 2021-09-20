@@ -16,4 +16,7 @@ form h2 {
 
 .landing {
     background-image: url("../images/pizza-palace.jpg");
-    }
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
