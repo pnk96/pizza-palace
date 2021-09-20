@@ -78,3 +78,20 @@ input.num-orders {
     width: 5rem;
     height: 2rem;
 }
+
+#add-to-cart {
+    float: bottom;
+}
+
+.cart {
+    background-color: rgba(184, 180, 148, 0.72);
+    align-self: flex-start;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.cart table {
+    overflow-y: auto;
+    width: 100%;
+    background-color: white;
+}
