@@ -81,6 +81,24 @@
                                 <label for="topping-cucumber" class="form-check-label">Cheese (ksh.160)</label>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <label class="form-label" for="order-qty">Number of Orders</label>
+                            <input type="number" class="input num-orders form-control" name="order-qty" value="1" id="order-qty" min="1"/>
+                            
+                            <div class="col-6 md-2">
+                                <label for="price">Total(Ksh): </label>
+                                <input type="number" id="price" readonly/>
+                            </div>
+                        </div>
+                        <div class="delivery">
+                            <p>Delivery (Optional)</p>
+                            <input class="address" type="text" name="first-name" id="delivery-name" placeholder="Enter Your Name"/>
+                            <input class="address" type="number" name="phone-no." id="delivery-phone" placeholder="Phone Number"/>
+                            <input class="address" type="text" name="postal-address" id="delivery-address" placeholder="Physical Address"/>
+                        </div>
+                    </form>
+                    <button id="add-to-cart" class="btn btn-primary">Add to cart</button>
+                </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
